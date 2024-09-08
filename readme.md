@@ -75,6 +75,10 @@ message:
 message :帮我列出所有的未完成的项目
 
 message :帮我删除“男人如何快速长高项目”
+
+5.interpreter
+message : 开启游戏模式
+message :开启工作模式
 # tip 
 在EX-SYS中所有路径都是根据AI的prompt生成的所以是只读模式
 EX-SYS 使用特定的路径以及特定的代码段，所以AI不会出错
