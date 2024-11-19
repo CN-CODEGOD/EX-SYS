@@ -2,10 +2,19 @@
 
 # 介绍
 
-self build SYS project , a little env for my project 
+base on the other project i build this 
+1.define path ,all path that share between project will be store in ex-sys path
+2.projects administrator
+3.define global variable
+4.A basic project for furture project TO follow
 
-including a self build AI env ,config system env,adding required basic ,config powershell 
 
+
+
+
+
+
+# EX-SYS-AI (暂时)
 # required basic 
 
 EX系统 会有ps文件添加一些常用的class 
