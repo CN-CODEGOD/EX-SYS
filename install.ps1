@@ -48,26 +48,22 @@ function installation {
     
 }
 
-if ((test-path $home\onedrive)) {
- 
-    Write-Error "error 0"
 
-}
-if ((Test-Path $home\onedrive\ex-sys)) {
+if ((Test-Path $path\ex-sys)) {
 
     Write-Error "error 0"
 }
 
 
 else {
-    md $HOME\onedrive\ex-sys
-move $PSScriptRoot\class $HOME\onedrive\ex-sys
+    md $path\ex-sys
+move $PSScriptRoot\class $path\ex-sys
 
-move $PSScriptRoot\xml $HOME\onedrive\ex-sys
+move $PSScriptRoot\xml $path\ex-sys
 
-move $PSScriptRoot\ex-sys.psm1 $HOME\onedrive\ex-sys
+move $PSScriptRoot\ex-sys.psm1 $path\ex-sys
 
-New-ModuleManifest -Path $HOME\onedrive\ex-sys\ex-sys.psd1 -RootModule ex-sys -Author cn_codegod -ModuleVersion 1.0
+New-ModuleManifest -Path $path\ex-sys\ex-sys.psd1 -RootModule ex-sys -Author cn_codegod -ModuleVersion 1.0
 
 Write-Host "pre install complete"
 
