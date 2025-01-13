@@ -1,15 +1,9 @@
-# EX-SYS-module 
-module branch 
-
-https://github.com/CN-CODEGOD/EX-SYS/tree/master
 
 
 
 
 
-
-
-# EX-SYS-copilot[current]
+# EX-SYS-copilot
 ## A System deploy helper for ex-sys and other projects
 language model
 
@@ -26,3 +20,4 @@ powershell command hint[draft]
 draft
 ## demo[ex-sys management]
 draft 
+#
